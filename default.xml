@@ -13,7 +13,7 @@
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
 
-  <remote  name="elelinux"
+  <remote  name="github"
            fetch="https://github.com/elelinux/"
            review="review.elelinux.com" />
 
