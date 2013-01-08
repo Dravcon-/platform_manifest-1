@@ -13,6 +13,10 @@
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
 
+  <remote  name="elelinux"
+           fetch="https://github.com/elelinux/"
+           review="review.elelinux.com" />
+
   <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
            sync-j="4" />
