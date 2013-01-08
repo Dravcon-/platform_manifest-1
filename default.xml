@@ -17,6 +17,9 @@
            fetch="https://github.com/elelinux/"
            review="review.elelinux.com" />
 
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
   <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
            sync-j="4" />
