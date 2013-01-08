@@ -14,7 +14,7 @@
            review="review.cyanogenmod.com" />
 
   <remote  name="github"
-           fetch="https://github.com/elelinux/"
+           fetch="git://github.com/elelinux/"
            review="review.elelinux.com" />
 
   <remote  name="private"
