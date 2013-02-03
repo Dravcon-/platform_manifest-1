@@ -270,7 +270,7 @@
   <project path="ndk" name="platform/ndk" />
 
   <!-- Extra -->
-  <project path="packages/apps/ELWallpaper" name="/packages_apps_ELWallpaper" remote="github" revision="jellybean" />
+  <project path="packages/apps/ELWallpapers" name="/packages_apps_ELWallpapers" remote="github" revision="jellybean" />
 
   <!-- AOKP packages -->
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
