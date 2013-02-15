@@ -36,7 +36,7 @@
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/asus/grouper" name="AOKP/device_asus_grouper" remote="aokp" revision="jb-mr1" />
-  <project path="device/asus/tilapia" name="AOKPdevice_asus_tilapia" remote="aokp" revision="jb-mr1" />
+  <project path="device/asus/tilapia" name="AOKP/device_asus_tilapia" remote="aokp" revision="jb-mr1" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="github" revision="jb-mr1" />
   <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="github" revision="jb-mr1" /> 
