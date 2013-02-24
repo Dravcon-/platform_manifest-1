@@ -288,6 +288,7 @@
   <project path="ndk" name="platform/ndk" />
 
   <!-- Extra Elelinux + Changes-->
+  <project path="kernel/htc/msm8660" name="pyramid_kernel_aosp" remote="github" revision="cm-10.1" />
   <project path="packages/apps/ELWallpapers" name="ELWallpapers" remote="github" revision="jellybean" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="github" revision="jellybean"/>
   <project path="hardware/qcom/audio-legacy" name="android_hardware_qcom_audio-legacy" remote="github" revision="jellybean"/>
