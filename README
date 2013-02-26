@@ -45,6 +45,8 @@ $ repo sync
 This will take a while, boil some coffee and take it easy
 when it´s finished let´s start to compile
 
+Code:
+
 $ . build/envsetup.sh
 $ lunch "and choose pyramid"
 $ make bacon "or if you want to compile little faster make -j8 bacon" 
