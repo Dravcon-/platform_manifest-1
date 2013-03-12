@@ -1,2 +1,52 @@
+A little guide to compile AOKP for Pyramid
+
+All commands are done in the terminal
+
+Requirements:
+* Computer
+* Common Sense
+* Some Linux Experience
+* Linux preferably with 64-bit Installed,
+* At least 4GB of ram with a dual core processor.
+
+Dependencies: sun java6, I presumes that you have it installed, if not do that first.
+
+Required Software to Install:
+
+For 32-bit and 64-bit System
+
+Code:
+
+$ git-core gnupg flex bison python rar original-awk gawk p7zip-full gperf libsdl1.2-dev libesd0-dev libwxgtk2.6-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev pngcrush schedtool
+
+Only for 64-bit System
+
+Code:
+
+$ g++-multilib lib32z1-dev ia32-libs lib32ncurses5-dev lib32readline-gplv2-dev gcc-multilib g++-multilib
+
+Other Required Software:
+
+Code:
+
+$ libc6-dev x11proto-core-dev libx11-dev libgl1-mesa-dev mingw32 tofrodos python-markdown libxml2-utils
+
+Now to the source
+
+Code:
+
+$ mkdir -p ~/bin
+$ mkdir -p ~/android/system
+$ curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
+$ chmod a+x ~/bin/repo (Reboot is required after this)
 $ repo init -u https://github.com/elelinux/platform_manifest.git -b jb-mr1
 $ repo sync
+
+This will take a while, boil some coffee and take it easy
+when it´s finished let´s start to compile
+
+Code:
+
+$ . build/envsetup.sh
+$ lunch "and choose pyramid"
+$ make bacon "or if you want to compile little faster make -j8 bacon" 
