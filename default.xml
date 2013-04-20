@@ -16,7 +16,8 @@
            fetch="git://github.com/elelinux/"
            review="review.elelinux.com" />
 
-  <default remote="aosp"
+  <default revision="refs/tags/android-4.1.2_r1"
+           remote="aosp"
            sync-j="4" />
 
   <project path="build" name="AOKP/android_build" remote="aokp" revision="jb" >
