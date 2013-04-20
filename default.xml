@@ -12,8 +12,8 @@
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
 
-  <remote  name="github"
-           fetch="git://github.com/elelinux/"
+  <remote  name="elelinux"
+           fetch="https://github.com/elelinux/"
            review="review.elelinux.com" />
 
   <default remote="aosp"
@@ -38,9 +38,9 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
 
   <!-- Elelinux Pyramid -->
-  <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="github" revision="jb_aokp" />
-  <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="github" revision="jb_aokp" /> 
-  <project path="kernel/htc/msm8660" name="pyramid_kernel_aosp" remote="github" revision="cm-10.1" />
+  <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="elelinux" revision="jb_aokp" />
+  <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="elelinux" revision="jb_aokp" /> 
+  <project path="kernel/htc/msm8660" name="pyramid_kernel_aosp" remote="elelinux" revision="cm-10.1" />
 
   <project path="device/htc/evita" name="AOKP/android_device_htc_evita" remote="aokp" revision="jb" />
   <project path="device/htc/msm8960-common" name="AOKP/android_device_htc_msm8960-common" remote="aokp" revision="jb" />
@@ -325,8 +325,8 @@
   <project path="system/vold" name="android_system_vold" remote="cm" revision="jellybean" />
 
   <!-- Elelinux -->
-  <project path="vendor/aokp" name="vendor_aokp" remote="github" revision="jb" />
-  <project path="vendor/htc/pyramid" name="android_vendor_htc_pyramid" remote="github" revision="jb_aokp" />
+  <project path="vendor/aokp" name="vendor_aokp" remote="elelinux" revision="jb" />
+  <project path="vendor/htc/pyramid" name="android_vendor_htc_pyramid" remote="elelinux" revision="jb_aokp" />
   <!-- Elelinux End -->
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="jb" />
@@ -335,7 +335,7 @@
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb" />
 
   <!-- Elelinux Platform_Manifest -->
-  <project path="platform_manifest" name="platform_manifest" remote="github" revision="jb" />
+  <project path="platform_manifest" name="platform_manifest" remote="elelinux" revision="jb" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
