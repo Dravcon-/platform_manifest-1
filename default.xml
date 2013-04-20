@@ -23,6 +23,7 @@
   <project path="build" name="AOKP/build" remote="aokp" revision="jb" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="bionic" name="AOKP/bionic" remote="aokp" revision="jb" />
   <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb" />
   <project path="development" name="AOKP/platform_development" remote="aokp" revision="jb" />
   <project path="device/htc/evita" name="AOKP/device_htc_evita" remote="aokp" revision="jb" />
@@ -60,7 +61,7 @@
   <project path="packages/providers/MediaProvider" name="AOKP/packages_providers_MediaProvider" remote="aokp" revision="jb" />
   <project path="packages/providers/TelephonyProvider" name="AOKP/packages_providers_TelephonyProvider" remote="aokp" revision="jb" />
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb" />
-  <project path="sdk" name="AOKP/android_sdk" remote="aokp" revision="jb" />
+  <project path="sdk" name="AOKP/sdk" remote="aokp" revision="jb" />
   <project path="system/bluetooth" name="AOKP/system_bluetooth" remote="aokp" revision="jb" />
   <project path="system/core" name="AOKP/system_core" remote="aokp" revision="jb" />
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb" />
@@ -300,7 +301,6 @@
   <project path="system/security" name="platform/system/security" remote="aosp" revision="refs/tags/android-4.1.2_r1" />
 
   <!-- Elelinux -->
-  <project path="bionic" name="bionic" remote="github" revision="jb" />
   <project path="bootable/bootloader/legacy" name="android_bootable_bootloader_legacy" remote="github" revision="jellybean" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="github" revision="jellybean" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="github" revision="jellybean" />
