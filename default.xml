@@ -39,6 +39,9 @@
   <project path="external/sqlite" name="AOKP/external_sqlite" remote="aokp" revision="jb" />
   <project path="external/webkit" name="AOKP/external_webkit" remote="aokp" revision="jb" />
   <project path="external/wpa_supplicant_8" name="AOKP/external_wpa_supplicant_8" remote="aokp" revision="jb" />
+  <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb" />
+  <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="jb" />
+  <project path="frameworks/native" name="AOKP/frameworks_native" remote="aokp" revision="jb" />
   <project path="hardware/broadcom/wlan" name="AOKP/hardware_broadcom_wlan" remote="aokp" revision="jb" />
   <project path="hardware/ril" name="AOKP/hardware_ril" remote="aokp" revision="jb" />
   <project path="packages/apps/Bluetooth" name="AOKP/packages_apps_Bluetooth" remote="aokp" revision="jb" />
@@ -304,8 +307,8 @@
   <project path="bootable/bootloader/legacy" name="android_bootable_bootloader_legacy" remote="github" revision="jellybean" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="github" revision="jellybean" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="github" revision="jellybean" />
-  <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="github" revision="jb_aokp" /> 
-  <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="github" revision="jb_aokp" />
+  <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="github" revision="jellybean" /> 
+  <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="github" revision="jellybean" />
   <project path="external/bash" name="android_external_bash-1" remote="github" revision="jellybean" />
   <project path="external/busybox" name="android_external_busybox-1" remote="github" revision="jellybean" />
   <project path="external/libncurses" name="android_external_libncurses-1" remote="github" revision="jellybean" />
@@ -315,9 +318,6 @@
   <project path="external/qrngd" name="android_external_qrngd" remote="github" revision="jellybean" />
   <project path="external/yaffs2" name="android_external_yaffs2-1" remote="github" revision="jellybean" />
   <project path="external/zlib" name="android_external_zlib" remote="github" revision="jellybean" />
-  <project path="frameworks/av" name="frameworks_av" remote="github" revision="jb" />
-  <project path="frameworks/base" name="frameworks_base" remote="github" revision="jb" />
-  <project path="frameworks/native" name="frameworks_native" remote="github" revision="jb" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy-1" remote="github" revision="jellybean" />
   <project path="hardware/libhardware" name="android_hardware_libhardware-1" remote="github" revision="jellybean" />
   <project path="hardware/msm7k" name="android_hardware_msm7k-1" remote="github" revision="jellybean" />
@@ -332,7 +332,7 @@
   <project path="system/su" name="android_system_su" remote="github" revision="jellybean" />
   <project path="system/vold" name="android_system_vold-1" remote="github" revision="jellybean" />
   <project path="vendor/aokp" name="vendor_aokp" remote="github" revision="jb" />
-  <project path="vendor/htc/pyramid" name="android_vendor_htc_pyramid" remote="github" revision="jb_aokp" />
+  <project path="vendor/htc/pyramid" name="android_vendor_htc_pyramid" remote="github" revision="jellybean" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="jellybean" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="github" revision="jellybean" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="github" revision="jellybean" />
