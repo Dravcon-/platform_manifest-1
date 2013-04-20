@@ -13,7 +13,7 @@
            review="review.cyanogenmod.com" />
 
   <remote  name="github"
-           fetch=".."
+           fetch="git://github.com/elelinux/"
            review="review.elelinux.com" />
 
   <default remote="aosp"
