@@ -16,9 +16,6 @@
            fetch="git://github.com/elelinux/"
            review="review.elelinux.com" />
 
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
-
   <default remote="aosp"
            sync-j="4" />
 
