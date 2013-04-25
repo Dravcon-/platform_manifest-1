@@ -84,7 +84,6 @@
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
@@ -114,7 +113,7 @@
   <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="github" revision="cm-10.1"/>
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="github" revision="cm-10.1"/>
   <project path="kernel/htc/msm8660" name="pyramid_kernel_aosp" remote="github" revision="cm-10.1" />
-  <project path="packages/apps/ELWallpapers" name="ELWallpapers" remote="github" revision="jellybean" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="github" revision="cm-10.1" />
   <project path="platform_manifest" name="platform_manifest" remote="github" revision="jb-mr1" />
   <project path="vendor/aokp" name="vendor_aokp" remote="github" revision="jb-mr1" />
   <project path="vendor/htc/pyramid" name="android_vendor_htc_pyramid" remote="github" revision="cm-10.1" /> 
