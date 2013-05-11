@@ -134,6 +134,7 @@
   <project path="kernel/htc/msm8660" name="pyramid_kernel_aosp" remote="github" revision="cm-10.1" />
   <project path="platform_manifest" name="platform_manifest" remote="github" revision="jb-mr1" />
   <project path="vendor/aokp" name="vendor_aokp" remote="github" revision="jb-mr1" />
+  <project path="vendor/qcom" name="vendor_qcom" remote="github" revision="jb-mr1" />
   <project path="vendor/htc/pyramid" name="android_vendor_htc_pyramid" remote="github" revision="cm-10.1" /> 
   <project path="vendor/tmobile/themes/Matte" name="Matte" remote="github" revision="jb-mr1" />
 
