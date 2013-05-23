@@ -132,6 +132,7 @@
   <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="github" revision="cm-10.1"/>
   <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="github" revision="cm-10.1"/>
   <project path="kernel/htc/msm8660" name="pyramid_kernel_aosp" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="github" revision="jb-mr1" />
   <project path="platform_manifest" name="platform_manifest" remote="github" revision="jb-mr1" />
   <project path="vendor/aokp" name="vendor_aokp" remote="github" revision="jb-mr1" />
   <project path="vendor/qcom" name="vendor_qcom" remote="github" revision="jb-mr1" />
