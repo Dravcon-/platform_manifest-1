@@ -29,6 +29,11 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr1" />
+  <project path="device/htc/m7att" name="AOKP/device_htc_m7att" remote="aokp" revision="jb-mr1" />
+  <project path="device/htc/m7-common" name="AOKP/device_htc_m7-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/htc/m7spr" name="AOKP/device_htc_m7spr" remote="aokp" revision="jb-mr1" />
+  <project path="device/htc/m7tmo" name="AOKP/device_htc_m7tmo" remote="aokp" revision="jb-mr1" />
+  <project path="device/htc/m7ul" name="AOKP/device_htc_m7ul" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9300" name="AOKP/device_samsung_i9300" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/msm8660-common" name="AOKP/device_samsung_msm8660-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="AOKP/device_samsung_msm8960-common" remote="aokp" revision="jb-mr1" />
