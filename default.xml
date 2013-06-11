@@ -69,7 +69,6 @@
   <project path="packages/apps/Phone" name="AOKP/packages_apps_Phone" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Torch" name="AOKP/packages_apps_Torch" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/VoiceDialer" name="AOKP/packages_apps_VoiceDialer" remote="aokp" revision="jb-mr1" />
   <project path="packages/inputmethods/LatinIME" name="AOKP/packages_input_LatinIME" remote="aokp" revision="jb-mr1" />
@@ -139,6 +138,7 @@
   <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="github" revision="cm-10.1"/>
   <project path="kernel/htc/msm8660" name="pyramid_kernel_aosp" remote="github" revision="cm-10.1" />
   <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="github" revision="jb-mr1" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="github" revision="jb-mr1" />
   <project path="platform_manifest" name="platform_manifest" remote="github" revision="jb-mr1" />
   <project path="vendor/aokp" name="vendor_aokp" remote="github" revision="jb-mr1" />
   <project path="vendor/htc/pyramid" name="android_vendor_htc_pyramid" remote="github" revision="cm-10.1" /> 
